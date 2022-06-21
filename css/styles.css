@@ -1,0 +1,164 @@
+#pie, .titulos, .titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tamImg, .prod, .titDis2, .texto, .encabezado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productos, .ubYdev, .home {
+  background-image: url(../assets/img/backgrouds/bg4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.decoracion--footer {
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+  padding-top: 1.5rem;
+}
+
+body {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.decoracion {
+  padding: 15px;
+}
+
+footer {
+  font-size: 1.25rem;
+  padding-top: 50px;
+  color: white;
+}
+
+.footer--im {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.navegacion {
+  background: radial-gradient(circle, rgb(238, 174, 202) 6%, rgba(148, 233, 222, 0.7287289916) 98%);
+  font-size: 1.15rem;
+  margin: auto;
+  color: rgb(253, 211, 0);
+}
+
+.containerDiv {
+  margin: auto;
+}
+
+.encabezado {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  padding: 15px;
+  color: white;
+}
+
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.85rem;
+  color: white;
+  margin: auto;
+  padding: 15px;
+}
+
+.titulos {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  padding: 15px;
+  color: white;
+}
+
+.texto {
+  border: 5px rgb(253, 211, 0) outset;
+  background: radial-gradient(circle, rgb(238, 174, 202) 6%, rgba(148, 233, 222, 0.7287289916) 98%);
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 335px;
+  height: 190px;
+  font-size: 1rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.mapa {
+  background: radial-gradient(circle, rgb(238, 174, 202) 6%, rgba(148, 233, 222, 0.7287289916) 98%);
+  padding: 5px;
+  margin: 0 auto;
+  width: 335px;
+  height: 190px;
+  border: 5px rgb(253, 211, 0) outset;
+}
+
+.grande:hover {
+  transform: scale(1.5);
+  background-color: radial-gradient(circle, rgba(1, 255, 221, 0.729) 6%, rgba(5, 138, 120, 0.729) 98%);
+}
+
+.grande__txt:hover {
+  transform: scale(1.5);
+}
+
+.medio2 {
+  margin: 0 auto;
+}
+
+.boton {
+  background-color: rgba(148, 233, 222, 0.7287289916);
+}
+
+.titDis2 {
+  border: 5px rgb(253, 211, 0) outset;
+  font-family: "Playfair Display", serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: white;
+  background: radial-gradient(circle, rgb(238, 174, 202) 6%, rgba(148, 233, 222, 0.7287289916) 98%);
+  justify-content: center;
+}
+
+.prod {
+  border: 5px rgb(253, 211, 0) outset;
+  background: radial-gradient(circle, rgb(238, 174, 202) 6%, rgba(148, 233, 222, 0.7287289916) 98%);
+  padding: auto;
+}
+
+.texto__prod {
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.tamImg {
+  width: auto;
+}
+
+.tamText {
+  width: 300;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+.productos{
+    @extend %fondo;
+}
+
+.medio2{
+    margin:map-get($posiciones, centrar);
+}
+
+.boton{
+background-color:  nth($colores,2);
+}
+
+.titDis2{
+    @extend %flexx-col;
+    @include bordes($pix, $col, $tipo);
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    margin-top: nth($pixeles,2);
+    margin-bottom: 0;
+    font-size: nth($letra_tam,4);
+    padding: nth($pixeles,3);
+    color: nth($colores,1);
+    background:nth($color-fondo,1);
+    justify-content: map-get($posiciones,centro);
+}
+.prod{
+    @extend %flexx-col;
+    @include bordes($pix, $col, $tipo);
+    background: nth($color-fondo,1);
+    padding: map-get($posiciones,automatico);
+    
+}
+
+.texto__prod {
+    margin: map-get($posiciones,centrar);
+    font-size: nth($letra_tam,1);
+    text-align: map-get($posiciones, centro);
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+}
+
+.tamImg{
+    @extend %flexx-col;
+    width: map-get($posiciones, automatico);
+}
+.tamText{
+    width: nth($pixeles,8);
+}
